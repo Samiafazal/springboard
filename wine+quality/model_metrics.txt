@@ -1,0 +1,28 @@
+{
+    "Model": "RandomForestClassifier",
+    "Features": [
+        "fixed acidity",
+        "volatile acidity",
+        "citric acid",
+        "residual sugar",
+        "chlorides",
+        "free sulfur dioxide",
+        "total sulfur dioxide",
+        "density",
+        "pH",
+        "sulphates",
+        "alcohol",
+        "wine_type_white"
+    ],
+    "Hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "random_state": 42
+    },
+    "Performance": {
+        "Accuracy": 0.83,
+        "Precision": 0.81,
+        "Recall": 0.8,
+        "F1 Score": 0.805
+    }
+}
